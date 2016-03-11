@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#this functionality is not in use anymore
+counselor/
+#this was just a test
+admin/testprogressbars
+admin/ldapAuthentication.cfc
+ldapAuthentication.cfc
+admin/uploaded_files

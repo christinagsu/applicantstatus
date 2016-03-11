@@ -1,0 +1,295 @@
+/*This is the CSS not in the template yet*/
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+table.matrix   {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+/*------ TABLE MATRICIES 1------*/
+table.matrix th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	text-align: left;
+	background-color: #1D3465;
+	padding: 2px;
+}
+table.matrix td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+}
+table.matrix td.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+table.matrix td.dividerleft {
+	margin-right: 80px;
+	padding-right: 20px;
+}
+table.matrix td.dividerright {
+	margin-left: 80px;
+	padding-left: 20px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #999999;
+}
+table.matrix caption {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #315AAD;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	text-align: left;
+	padding: 0px;
+} 
+/*------ TABLE MATRICIES 2------*/
+table.matrix2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom:10px;
+	text-align: left;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #1D3465;
+	border-left-color: #1D3465;
+}
+table.matrix2 th, table.matrix2 td {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #1D3465;
+	border-bottom-color: #1D3465;
+}
+table.matrix2 th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	text-align: left;
+	background-color: #1D3465;
+	padding: 2px;
+}
+table.matrix2 td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	color: #333333;
+	font-weight: normal;
+	padding: 2px;
+}
+table.matrix2 td.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+table.matrix2 caption {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #315AAD;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: left;
+	padding: 0px;
+} 
+/*------ Matrix Rows ------*/
+td.matrixrow1 {
+background-color:#e5e5e5;
+}
+td.matrixrow2 {
+background-color:#fff;
+}
+.matrix tr.section td {
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #1D3465;
+}
+.matrix td,#content .matrix td.indent {
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+.matrix tr.section td.indent {
+	padding-top: 2px;
+}
+.matrix td.indent, #content .matrix tr.section td.indent {
+	padding-left: 15px;
+}
+div.section .matrix caption {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	padding: 0px;
+}
+div.section .matrix .list td {
+	margin-bottom: 0px;
+	margin-top: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+
+
+
+
+/*------ TABLE MATRICIES ------*/
+ table.matrix   {
+    margin-bottom: 5px;
+}
+ table.matrix tr  {
+    margin:0px;
+    padding:0px;
+}
+ table.matrix caption  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 20px;
+    vertical-align: middle;
+    height:auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left:5px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    background-color:#315AAD;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #FFFFFF;
+}
+ table.matrix caption img  {
+    float:left;
+    border-style:none;
+    vertical-align: middle;
+}
+ table.matrix caption a {
+    border-style:none;
+    vertical-align: middle;
+}
+ table.matrix th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    color: #333333;
+    font-weight: bold;
+    margin: 0px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    text-align: left;
+    background-color:#D1DFEC;
+}
+ table.matrix td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    font-style: normal;
+    line-height: normal;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    color: #333333;
+    font-weight: normal;
+}
+/* table.matrix td.title, table td.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}*/
+ tr.matrixrow1, td.matrixrow1 {
+    background-color:#efefef;
+}
+ tr.matrixrow2, td.matrixrow2 {
+    background-color:#fff;
+}
+ td.matrixfooter {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #315AAD;
+}
+#release {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E7ECF8;
+	font-size: 12px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border: 1px solid #315AAD;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+#release form, #release p {
+	margin: 0px;
+	padding: 5px;
+}
+
+#release h3 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	background-color: #8CA5DD;
+	display: block;
+	margin-top:0px;
+}
+#release p {
+	margin: 0px;
+	padding: 0px 0px 5px;
+}
+#release ul, ol {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}

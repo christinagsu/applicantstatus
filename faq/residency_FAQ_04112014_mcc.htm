@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- PageID 45706 - published by Open Text Web Solutions 10 - 10.0.1.115 - 30591 -->
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://webdb.gsu.edu/commonelements/admissionscss-main.css" media="all" />
+    <script type="text/javascript" src="https://webdb.gsu.edu/CommonElements/jquery.min.js">
+</script>
+    <script language="JavaScript" type="text/javascript">
+//<![CDATA[
+    <!--
+    $(document).ready(function() {
+
+        $('a').click(function(){
+             this.target = "_blank";
+        });
+
+    });
+    //-->
+    //]]>
+    </script>
+    <style type="text/css">
+/*<![CDATA[*/
+    <!--
+
+
+    dt.even { margin: 10px 0px; }
+    dt.even a {font-weight: bold; text-decoration: none !important; color: black;}
+    dt.odd { margin: 10px 0px; }
+    dt.odd a {font-weight: bold; text-decoration: none !important; color: black;}
+
+
+    -->
+    /*]]>*/
+    </style>
+  </head>
+  <body style="background-color: #FFF; overflow-x: hidden; width:98%;">
+    <div id="topdiv">
+      <!-- BEGIN Elements - FAQ List Entry -->
+      <script language="JavaScript" type="text/javascript">
+//<![CDATA[
+      function doToggleDL(x){
+      var zDD=document.getElementById('DL').getElementsByTagName('dd');
+      var zDT=document.getElementById('DL').getElementsByTagName('dt');    
+        zDD[x].id=(zDD[x].id=='hideDD')?'showDD':'hideDD';
+        zDT[x].id=(zDT[x].id=='DTplus')?'DTminus':'DTplus';    
+      }
+      function ToggleDLopen(){//we open all of them
+      var zDD=document.getElementById('DL').getElementsByTagName('dd');
+      var zDT=document.getElementById('DL').getElementsByTagName('dt');    
+      for(var i=0;i<zDT.length;i++){
+        zDD[i].id='showDD';
+        zDT[i].className='DTminus';
+      }
+      return false;
+      }
+      function ToggleDLclose(){//we close all of them    
+      var zDD=document.getElementById('DL').getElementsByTagName('dd');
+      var zDT=document.getElementById('DL').getElementsByTagName('dt');    
+      for(var i=0;i<zDT.length;i++){
+        zDD[i].id='hideDD';
+        zDT[i].className='DTplus';
+      }
+      return false;    
+      }
+      function ToggleDL(){
+      if (document.getElementById && document.getElementsByTagName){            
+      var zDT=document.getElementById('DL').getElementsByTagName('dt');
+      var zDD=document.getElementById('DL').getElementsByTagName('dd');
+      var ToggleON = document.getElementById('ToggleON');
+      var ToggleOFF = document.getElementById('ToggleOFF');    
+      if (ToggleON && ToggleOFF){// Show All - Hide All "links"
+        ToggleON.onclick = ToggleDLopen;
+        ToggleON.title = "Show all answers";
+        ToggleON.href = "#";        
+        ToggleOFF.onclick = ToggleDLclose;    
+        ToggleOFF.title = "Hide all answers";
+        ToggleOFF.href = "#";        
+      }
+      var even = true;
+      for(var i=0;i<zDT.length;i++){
+        var zContent = zDT[i].innerHTML;
+        var zHref = "<a href='#' onclick=\"doToggleDL("+i+");return false\" title='Show/hide the answer'>";
+        zDT[i].innerHTML = zHref + zContent + "<\/a>";
+        zDD[i].id='hideDD';
+        zDT[i].className='DTplus';
+        
+        
+        zDT[i].className='odd';
+        zDD[i].className='odd';
+        if(even){ zDT[i].className='even'; zDD[i].className='even';}
+        even = !even;
+        
+        }
+      }
+      }
+      //-->
+      //]]>
+      </script> <script language="JavaScript" type="text/javascript">
+//<![CDATA[
+      <!--
+      var alreadyRun = false;
+      window.onload = function() {
+      if (alreadyRun) {return;}
+      alreadyRun = true; 
+      ToggleDL();
+      }
+      //-->
+      //]]>
+      </script>
+      <div id="DL" style="font-family: arial">
+        <!-- BEGIN CONTENT MODULES - FAQ LIST -->
+        <h2>
+          Application Term Information
+        </h2>
+        <dl class="faq">
+          <!-- <a target="_blank" href="http://www.gsu.edu/45716.html">I do not understand my application status.  What does it mean?</a> -->
+          <dt class="even">
+            I do not understand my application status.&nbsp; What does it mean?
+          </dt>
+          <dd class="even">
+            <p>
+              Your application status is dependent upon the review of your application and all necessary supporting documentation once they are received in the Office of Undergraduate Admissions. There are several application statuses commonly used to reflect an application during any stage of the admissions process.&nbsp; Below are definitions of some commonly used application statuses:
+            </p>
+            <ol>
+              <li>
+                <strong>Incomplete-Items</strong> <strong>Outstanding:</strong> Application status that reflects that all necessary supporting documentation has not yet been received by the Office of Undergraduate Admissions to proceed with an appropriate final admissions decision for the applicant&rsquo;s file.
+              </li>
+              <li>
+                <strong>Complete:</strong> Application status that reflects all necessary supporting documentation has been received by the Office of Undergraduate Admissions to proceed with an appropriate final admissions decision for the applicant&rsquo;s file.
+              </li>
+              <li>
+                <strong>Complete Under Review:</strong> Application status that, after review of the freshman application and all necessary supporting documentation, reflects that the freshman applicant&rsquo;s file is awaiting a final decision under either the Fall Early Action or Regular Decision plan.
+              </li>
+              <li>
+                <strong>Accept:</strong> Application status that, after review of the application and all final necessary supporting documentation, reflects the applicant has met all admissions requirements and has been accepted to the university.
+              </li>
+              <li>
+                <strong>Withdrawn-Incomplete:</strong> Application status that reflects that all necessary supporting documentation had not been received by the Office of Undergraduate Admissions to proceed with a timely, appropriate final admissions decision for the applicant&rsquo;s file.&nbsp; The applicant can choose to update his or her admissions file for review for a later term by submitting updated credentials by the appropriate application deadlines. Please access GSU&rsquo;S Admissions webpage at <a target="_blank" href="http://www.gsu.edu/admissions/apply.html">http://www.gsu.edu/admissions/apply.html</a> for more information.
+              </li>
+              <li>
+                <strong>Withdrawn:</strong> Application status that generally reflects the applicant&rsquo;s decision to not have his or her application be reviewed for a given term. The applicant can choose to update his or her admissions file for review for a later term by submitting updated credentials by the appropriate application deadlines. Please access GSU&rsquo;S Admissions webpage at <a target="_blank" href="http://www.gsu.edu/admissions/apply.html">http://www.gsu.edu/admissions/apply.html</a> for more information.
+              </li>
+              <li>
+                <strong>Deny:</strong> Application status that, after review of the application and all final necessary supporting documentation, reflects the applicant has not met all admissions requirements and has not been accepted to the university. The applicant can choose to update his or her admissions file for review for a later term by submitting updated credentials by the appropriate application deadlines. Please access GSU&rsquo;S Admissions webpage at <a target="_blank" href="http://www.gsu.edu/admissions/apply.html">http://www.gsu.edu/admissions/apply.html</a> for more information on our various student type admissions requirements<strong>.</strong>
+              </li>
+              <li>
+                <strong>Accept-Intent form received:</strong> Application status that, after review of applicant&rsquo;s Intent to Enroll form, reflects the applicant&rsquo;s intention on enrolling at GSU.
+              </li>
+            </ol>
+          </dd><!-- <a target="_blank" href="http://www.gsu.edu/45715.html">How can I know more information on my application type?</a> -->
+          <dt class="odd">
+            How can I know more information on my application type?
+          </dt>
+          <dd class="odd">
+            <p>
+              To access information on your student type, please visit the Office of Admissions webpage at <a target="_blank" href="http://www.gsu.edu/admissions/apply.html">http://www.gsu.edu/admissions/apply.html</a>.
+            </p>
+          </dd>
+        </dl><!-- END CONTENT MODULES - FAQ LIST --><!-- BEGIN CONTENT MODULES - FAQ LIST -->
+        <h2>
+          Residency Information
+        </h2>
+        <dl class="faq">
+          <!-- <a target="_blank" href="http://www.gsu.edu/45714.html">I have a question about my residency status.  It currently states Not yet determined.  What does that mean?  Why has my residency not been updated?</a> -->
+          <dt class="even">
+            I have a question about my residency status.&nbsp; It currently states &ldquo;Not yet determined&rdquo;.&nbsp; What does that mean?&nbsp; Why has my residency not been updated?
+          </dt>
+          <dd class="even">
+            <p>
+              Generally, the Office of Admissions does not make an initial residency determination on an applicant&rsquo;s admissions file until the applicant has met all admissions requirements and has been accepted to the university.
+            </p>
+          </dd><!-- <a target="_blank" href="http://www.gsu.edu/45713.html">I have a question about my residency status.  It currently states that I am a resident.  What does that mean?  </a> -->
+          <dt class="odd">
+            I have a question about my residency status.&nbsp; It currently states that I am a resident.&nbsp; What does that mean?
+          </dt>
+          <dd class="odd">
+            <p>
+              If your residency status displays &ldquo;Resident&rdquo;, it means that you have been classified as a Georgia resident for tuition-payment purposes."
+            </p>
+          </dd><!-- <a target="_blank" href="http://www.gsu.edu/45712.html">I have a question about my residency status.  It currently states Green Card Needed.  What does that mean?  </a> -->
+          <dt class="even">
+            I have a question about my residency status.&nbsp; It currently states &ldquo;Green Card Needed&rdquo;.&nbsp; What does that mean?
+          </dt>
+          <dd class="even">
+            <p>
+              If your residency status displays &ldquo;Green Card Needed&rdquo;, it means that in order to be considered for Georgia residence classification for tuition-payment purposes and have the ability to register for classes, it is required that you submit a valid, legible copy of your permanent resident alien card to the Office of Undergraduate Admissions as soon as possible.
+            </p>
+          </dd><!-- <a target="_blank" href="http://www.gsu.edu/45711.html">I have a question about my residency status.  It currently states Non-Resident.  What does that mean?  </a> -->
+          <dt class="odd">
+            I have a question about my residency status.&nbsp; It currently states &ldquo;Non-Resident&rdquo;.&nbsp; What does that mean?
+          </dt>
+          <dd class="odd">
+            <p>
+              If your residency status displays &ldquo;Non-Resident&rdquo;, it means that that you have been classified a non-resident for tuition-payment purposes.&nbsp; If you believe this classification has been made in error, or need more information on Georgia Tuition Classification, please visit <a target="_blank" href="http://www.gsu.edu/es/residency.html">http://www.gsu.edu/es/residency.html</a> .
+            </p>
+          </dd><!-- <a target="_blank" href="http://www.gsu.edu/45710.html">I have a question about my residency status.  It currently states Residency in Question.  What does that mean?  </a> -->
+          <dt class="even">
+            I have a question about my residency status.&nbsp; It currently states &ldquo;Residency in Question&rdquo;.&nbsp; What does that mean?
+          </dt>
+          <dd class="even">
+            <p>
+              If your residency status displays &ldquo;Residency in Question&rdquo;, it means that, upon review of your application, questions have arisen regarding your residency status for tuition-payment purposes.&nbsp; If you believe this determination has been made in error, please contact the Office of Admissions via phone at (404) 413-2500, email at <a href="mailto:admissions@gsu.edu">admissions@gsu.edu</a> or in-person at Sparks Hall, Suite 200, 33 Gilmer Street, Atlanta, GA 30303 as soon as possible. Please note that, in some cases, it may be necessary for an applicant to file a petition for Georgia Tuition Classification or apply for a residency waiver form.&nbsp; For more information on the petition for Georgia Tuition Classification or to access any of the available waiver forms, please visit <a target="_blank" href="http://www.gsu.edu/es/residency.html">http://www.gsu.edu/es/residency.html</a>.
+            </p>
+          </dd><!-- <a target="_blank" href="http://www.gsu.edu/45709.html">I see that my file has a residency determination, but my application status still reads Complete or Complete-Under Review.  Does that mean I will be accepted?</a> -->
+          <dt class="odd">
+            I see that my file has a residency determination, but my application status still reads &ldquo;Complete&rdquo; or &ldquo;Complete-Under Review&rdquo;.&nbsp; Does that mean I will be accepted?
+          </dt>
+          <dd class="odd">
+            <p>
+              Generally, the Office of Admissions does not make an initial residency determination on an applicant&rsquo;s admissions file until the applicant has met all admissions requirements and has been accepted to the university.&nbsp; However, for applicants applying under the Early Action and Regular Decision plans, we encourage you to regularly monitor your admissions status.
+            </p>
+          </dd>
+        </dl><!-- END CONTENT MODULES - FAQ LIST -->
+      </div>
+    </div>
+  </body>
+</html>

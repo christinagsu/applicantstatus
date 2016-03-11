@@ -1,0 +1,375 @@
+<HTML>
+<HEAD><!-- PageID 36585 - published by RedDot 9 - 9.0.0.33 - 24127 -->
+<title></title>
+<link rel="stylesheet" type="text/css" href="https://webdb.gsu.edu/commonelements/admissionscss-main.css" media="all" /> 
+<script type="text/javascript" src="https://webdb.gsu.edu/CommonElements/jquery.min.js"></script> 
+<script language="JavaScript" type="text/javascript">
+<!--
+$(document).ready(function() {
+ 
+        $('a').click(function(){
+             this.target = "_blank";
+        });
+  
+  });
+//-->
+</script>
+<style type="text/css">
+<!--
+
+
+
+
+
+-->
+</style>
+
+
+</HEAD>
+
+<BODY>
+<div id="topdiv">
+<!-- BEGIN Elements - FAQ List Entry -->
+<script language="JavaScript" type="text/javascript">
+function doToggleDL(x){
+    var zDD=document.getElementById('DL').getElementsByTagName('dd');
+    var zDT=document.getElementById('DL').getElementsByTagName('dt');    
+        zDD[x].id=(zDD[x].id=='hideDD')?'showDD':'hideDD';
+        zDT[x].id=(zDT[x].id=='DTplus')?'DTminus':'DTplus';    
+}
+function ToggleDLopen(){//we open all of them
+    var zDD=document.getElementById('DL').getElementsByTagName('dd');
+    var zDT=document.getElementById('DL').getElementsByTagName('dt');    
+    for(var i=0;i<zDT.length;i++){
+        zDD[i].id='showDD';
+        zDT[i].className='DTminus';
+    }
+    return false;
+}
+function ToggleDLclose(){//we close all of them    
+    var zDD=document.getElementById('DL').getElementsByTagName('dd');
+    var zDT=document.getElementById('DL').getElementsByTagName('dt');    
+    for(var i=0;i<zDT.length;i++){
+        zDD[i].id='hideDD';
+        zDT[i].className='DTplus';
+    }
+    return false;    
+}
+function ToggleDL(){
+if (document.getElementById && document.getElementsByTagName){            
+    var zDT=document.getElementById('DL').getElementsByTagName('dt');
+    var zDD=document.getElementById('DL').getElementsByTagName('dd');
+    var ToggleON = document.getElementById('ToggleON');
+    var ToggleOFF = document.getElementById('ToggleOFF');    
+    if (ToggleON && ToggleOFF){// Show All - Hide All "links"
+        ToggleON.onclick = ToggleDLopen;
+        ToggleON.title = "Show all answers";
+        ToggleON.href = "#";        
+        ToggleOFF.onclick = ToggleDLclose;    
+        ToggleOFF.title = "Hide all answers";
+        ToggleOFF.href = "#";        
+    }
+    var even = true;
+    for(var i=0;i<zDT.length;i++){
+        var zContent = zDT[i].innerHTML;
+        var zHref = "<a href='#' onclick=\"doToggleDL("+i+");return false\" title='Show/hide the answer'>";
+        zDT[i].innerHTML = zHref + zContent + "</a>";
+        zDD[i].id='hideDD';
+        zDT[i].className='DTplus';
+        
+        
+        zDT[i].className='odd';
+        zDD[i].className='odd';
+        if(even){ zDT[i].className='even'; zDD[i].className='even';}
+        even = !even;
+        
+        }
+    }
+}
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+var alreadyRun = false;
+   window.onload = function() {
+   if (alreadyRun) {return;}
+   alreadyRun = true; 
+   ToggleDL();
+}
+//-->
+</script>
+
+<div id="DL">
+
+
+ 
+
+
+<!-- BEGIN CONTENT MODULES - FAQ LIST -->
+<h2>General Information</h2>
+<p></p>
+
+<dl class="faq">
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36571.html">What are some unique academic programs at Georgia State?</a> -->
+<dt class="even">What are some unique academic programs at Georgia State?
+
+</dt>
+<dd class="even">Georgia State offers a variety of unique academic programs including Freshman Learning Communities, Study Abroad, Perspectives courses and Atlanta-Based Learning. Learn more about our <a  target="_self" href="http://www.gsu.edu/admissions/28239.html">Unique Academic Programs</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36618.html">What majors are available? </a> -->
+<dt class="odd">What majors are available?
+
+</dt>
+<dd class="odd">Georgia State offers over 50 different majors in over 200 fields of study. For a complete list of our majors, please visit <a  target="_self" href="http://www.gsu.edu/degrees_programs_undergraduate.html">here</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36572.html">What academic support services are available for students? </a> -->
+<dt class="even">What academic support services are available for students? 
+
+</dt>
+<dd class="even">Students have access to a wide variety of academic support services outside the classroom, including a Writing Studio, Supplemental Instruction program and Academic Coaching. Please see our <a  target="_self" href="http://www.gsu.edu/success/support.html">Student Success website</a> for information about all of Georgia State's academic support resources.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36594.html">How can I request a high school visit/College Fair attendance from an Admissions Counselor?</a> -->
+<dt class="odd">How can I request a high school visit/College Fair attendance from an Admissions Counselor?
+
+</dt>
+<dd class="odd">To request a private high school visit, please contact your <a  target="_self" href="http://www.gsu.edu/admissions/meet_the_counselors.html">territory manager</a>.<br />
+<br />
+If you are organizing a college fair and would like an admissions representative to attend, please contact Marquesha Jackson, Admissions Travel Coordinator, at <a  href="mailto:mojackson@gsu.edu">mojackson@gsu.edu</a>. Please see our <a  target="_self" href="http://www.gsu.edu/admissions/travel_schedule.html">travel schedule</a> to see where you can meet Georgia State Admissions Counselors in your community.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36573.html">Does Georgia State offer a Joint/Dual Enrollment program?</a> -->
+<dt class="even">Does Georgia State offer a Joint/Dual Enrollment program? How can a student apply?
+
+</dt>
+<dd class="even">Georgia State offers joint-enrollment for highly motivated high school juniors and seniors. The application process and requirements are outlined <a  target="_self" href="http://www.gsu.edu/admissions/joint_enrollment.html">here</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36689.html">Does Georgia State offer an Honors Program?</a> -->
+<dt class="odd">Does Georgia State offer an Honors Program? How does a student apply? What are the benefits of participating in the Honors Program?
+
+</dt>
+<dd class="odd">Georgia State University's <a  target="_self" href="http://www.gsu.edu/honors/index.html">Honors Program </a>offers high-achieving and highly motivated students the resources to excel academically and to prepare for successful professional careers. Honors students have access to individualized advisement, small classes and seminars, priority registration, special housing in the University Commons, research assistantships, and additional Study Abroad opportunities. Qualified Students will receive a special invitation to apply for the Honors program once they have submitted all admission documents. To request a visit from the Honors Admission Counselor, please contact <a  target="_self" href="http://www.gsu.edu/admissions/28923.html">Laura Gibson</a>. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36690.html">What scholarships are available for first-year students?</a> -->
+<dt class="even">What scholarships are available for first year students? When are scholarship deadlines? How do students apply for scholarships?
+
+</dt>
+<dd class="even">Georgia State offers numerous scholarships for students who demonstrate outstanding academic and extracurricular achievement. In order to be considered for Georgia State scholarships, a student must apply for admission and submit all required documents by the January 15th scholarship deadline. Eligible students will be contacted and receive a special invitation to apply for scholarships. For descriptions of our scholarship opportunities for incoming students, please click <a  target="_self" href="http://webdb.gsu.edu/scholarships/incoming.cfm">here</a>. There are also hundreds of scholarships available for current Georgia State students. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36626.html">What is the recruitment process for student athletes? </a> -->
+<dt class="odd">What is the recruitment process for student athletes?
+
+</dt>
+<dd class="odd">If student athletes are interested in playing for the Georgia State Panthers, they should have their coach contact the <a  target="_self" href="http://www.georgiastatesports.com//HomePage2.dbml?DB_OEM_ID=12700">athletics department</a>. </dd>
+
+
+</dl>
+<!-- END CONTENT MODULES - FAQ LIST --> 
+
+
+<!-- BEGIN CONTENT MODULES - FAQ LIST -->
+<h2>Applying to Georgia State</h2>
+<p></p>
+
+<dl class="faq">
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36693.html">What is the difference between applying for early action admission and regular admission?</a> -->
+<dt class="even">What is the difference between applying for early action admission and regular admission?
+
+</dt>
+<dd class="even">Students who apply for traditional fall entry may select early action on their application and receive a decision by January 8th. Students who select regular admission will receive a decision as early as March 1, and as late as May 1. Early Action applicants are those for whom Georgia State University is a top choice school, and who are qualified to submit all documentation by the Early Action deadline. Regular admission applicants are those who are very interested in Georgia State, but will need more time to submit qualified documentation for consideration. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36578.html">How does a student apply for admission to Georgia State? </a> -->
+<dt class="odd">How does a student apply for admission to Georgia State? 
+
+</dt>
+<dd class="odd">Steps for admission include application, $50 application fee, official transcripts, and SAT and/or ACT scores. A detailed explanation is available <a  target="_self" href="http://www.gsu.edu/admissions/apply.html">here</a>. Your answers on some of the application questions may require additional documents or statements, so please be sure every question is answered carefully and honestly.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36694.html">When can a student submit an application?</a> -->
+<dt class="even">When can a student submit an application?
+
+</dt>
+<dd class="even">The application for admission will open in August, and remain open until March 1. Students may submit their application and select either early action or regular admission, which will determine the deadline for which their documents will be due. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36633.html">When are application deadlines? </a> -->
+<dt class="odd">When are application deadlines?
+
+</dt>
+<dd class="odd">For traditional fall entry, the early action deadline is November 1 and the regular admission deadline is March 1. Students who wish to be considered for scholarships must have their application for admission and all required documents submitted by January 15th. Students should apply as early as they feel qualified to submit their application, test scores, and transcripts, in order to have the best options for housing, scholarships, financial aid, and registration opportunities. Deadlines for freshmen entry terms are located <a  target="_self" href="http://www.gsu.edu/admissions/apply.html">here</a>. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36576.html">What are the admission requirements? </a> -->
+<dt class="even">What are the admission requirements?
+
+</dt>
+<dd class="even">The freshmen requirements to be considered for admission are explained <a  target="_self" href="http://www.gsu.edu/admissions/28275.html">here</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36577.html">How should transcripts and test scores be sent to Georgia State? </a> -->
+<dt class="odd">How should transcripts and test scores be sent to Georgia State?
+
+</dt>
+<dd class="odd">Official transcripts may be mailed from your school to Georgia State or sent electronically through <a  target="_blank" href="http://gacollege411.org/">gacollege411.org</a>. Official test scores MUST be sent electronically from either <a  target="_self" href="http://www.collegeboard.com/">Collegeboard </a>or <a  target="_self" href="http://www.act.org/">ACT </a>by selecting Georgia State University as a school for test delivery.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36631.html">What is the average score and GPA for an admitted freshman? </a> -->
+<dt class="even">What is the average score and GPA for an admitted freshman?
+
+</dt>
+<dd class="even">The student profile for Fall 2008 included: 3.3 unweighted, core GPA (College Prep Curriculum only); 1082 SAT (verbal + math scores only) or a 23 ACT Composite Score.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36630.html">What are the minimum test score requirements to be considered for admission? </a> -->
+<dt class="odd">What are the minimum test score requirements to be considered for admission?
+
+</dt>
+<dd class="odd">The minimum test scores accepted are SAT 430 verbal/400 math and/or ACT 17 English/17 Math. These are the minimums specified by the Board of Regents, and <b>in no way guarantee</b> acceptance to Georgia State.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36632.html">How does Georgia State calculate the GPA? Do you add weight for AP/Honors/IB courses? </a> -->
+<dt class="even">How does Georgia State calculate the GPA? Do you add weight for AP/Honors/IB courses?
+
+</dt>
+<dd class="even">Georgia State calculates the GPA of the 16 College Preparatory Curriculum Units and does not consider any AP/Honors/IB weighting in the calculation. However, AP/IB credits are accepted at Georgia State and credit information can be found <a  target="_self" href="http://www.gsu.edu/success/credits.html">here</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36636.html">How does a student use an application fee waiver? </a> -->
+<dt class="odd">How does a student use an application fee waiver?
+
+</dt>
+<dd class="odd">Students who qualify for an <a  target="_blank" href="http://www.collegeboard.com/student/apply/the-application/922.html">application fee waiver</a> must use the printable, PDF application for admission given <a  target="_self" href="http://www.gsu.edu/admissions/apply.html">here</a>. Students fill out the paper application and must attach the fee waiver to it and mail in to admissions.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36637.html">Does Georgia State consider the writing portion of the SAT or the writing portion of the ACT? </a> -->
+<dt class="even">Does Georgia State consider the writing portion of the SAT or the writing portion of the ACT?
+
+</dt>
+<dd class="even">Yes, Georgia State does consider the writing portions of SAT and/or ACT. While the specific single writing score is not entered into the admission calculation process, we reserve the right to read and consider the writing sample before rendering a final decision. You may review the freshmen index calculation process for a research university <a  target="_blank" href="http://www.gacollege411.org/StudentPlanner/CollegeEntranceRequirements/usg/4-year_freshman_index.asp">here</a>, and note that the minimum freshman index listed does not guarantee acceptance.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36634.html">If a student's first language is not English, do they have to take the TOEFL? </a> -->
+<dt class="odd">If a student's first language is not English, do they have to take the TOEFL?
+
+</dt>
+<dd class="odd">If English is not your first language and you do NOT meet the minimum Critical Reading on the SAT or the minimum English score on the ACT, you must submit official scores from a Georgia State-approved <a  target="_self" href="http://www.gsu.edu/admissions/28956.html">English proficiency test</a> in order to be considered for admission. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36635.html">What is the process for submitting updated transcripts or test scores?</a> -->
+<dt class="even">What is the process for submitting updated transcripts or test scores?
+
+</dt>
+<dd class="even">If a student would like to update their admission file, they must do so <strong>before </strong>an official decision has been made. Updated transcripts or test scores must arrive in the same delivery method mentioned above, and the student must call admissions to ensure that the new data will be considered. Visit <a  target="_self" href="http://www.gsu.edu/admissions/28273.html">here</a> for more details.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36696.html">If an official admissions decision has already been given, can a student request a re-evaluation based on new transcripts or test scores?</a> -->
+<dt class="odd">If an official admissions decision has already been given, can a student request a re-evaluation based on new transcripts or test scores?
+
+</dt>
+<dd class="odd">Once an admissions decision has been generated, a re-evaluation is not an option. Students who are denied have the option to appeal the decision (see below), and submit updated documents in the process. Denied students are encouraged to look into our transfer requirements <a  target="_self" href="http://www.gsu.edu/admissions/28574.html">here</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36638.html">How can a student appeal an admission decision? </a> -->
+<dt class="even">How can a student appeal an admission decision?
+
+</dt>
+<dd class="even">A student is only eligible to appeal their admission decision if they have an official denied status. Denied students may submit appeals as early as they wish up to the July 1st final appeal deadline. Waitlisted, deferred, or students withdrawn for low test scores may not appeal. Students who have compelling reasons to explain low performance on test scores/grades, or students who would like to be considered based on improved test scores or GPA after their denial status may access the appeal form <a  target="_self" href="http://www.gsu.edu/admissions/28274.html">here</a>. A completed appeal includes the form, the required letter, and documents support their claim, which may include new transcripts, updated test scores, medical records, death certificates, recommendations, resumes, statements, or awards. Appeals will be reviewed and a final decision communicated via mail. </dd>
+
+
+</dl>
+<!-- END CONTENT MODULES - FAQ LIST --> 
+
+
+<!-- BEGIN CONTENT MODULES - FAQ LIST -->
+<h2>Steps for Accepted Students</h2>
+<p></p>
+
+<dl class="faq">
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36582.html">What are the next steps for accepted students in order to enroll at Georgia State? </a> -->
+<dt class="even">What are the next steps for accepted students in order to enroll at Georgia State? 
+
+</dt>
+<dd class="even">Accepted students will need to sign up for <a  target="_self" href="http://www2.gsu.edu/~wwwsta/incept/">Incept: New Student Orientation</a>, submit an Intent to Enroll Form, apply for on-campus housing, if desired, and finalize their financial aid. To view a complete list of required steps click <a  target="_self" href="http://www.gsu.edu/admissions/28264.html">here</a>. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36581.html">What is Incept: New Student Orientation?</a> -->
+<dt class="odd">What is Incept: New Student Orientation?
+
+</dt>
+<dd class="odd"><a  target="_self" href="http://www2.gsu.edu/~wwwsta/incept/">Incept</a> is a mandatory orientation program that all first-year freshmen must attend. Upon arrival at Incept, students will meet with their advisor, set their schedule, obtain their student ID, purchase books, etc. One day or overnight Incepts are available to students. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36579.html">Does Georgia State grant credit for AP/IB exams? </a> -->
+<dt class="even">Does Georgia State grant credit for AP/IB exams? 
+
+</dt>
+<dd class="even">Yes, Georgia State does grant certain AP/IB exam credit. To view specific AP/IB/CLEP credit information click <a  target="_self" href="http://www.gsu.edu/success/credits.html">here</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36697.html">How does a student apply for financial aid? When is Georgia State’s deadline for the FAFSA?</a> -->
+<dt class="odd">How does a student apply for financial aid? When is Georgia State's deadline for the FAFSA?
+
+</dt>
+<dd class="odd">Any student can apply for financial aid by clicking <a  target="_self" href="http://www.gsu.edu/es/applying_for_aid.html">here</a>. Typically, students/parents should start applying after January 1. The deadline for FAFSA applications for Georgia State is April 1. <br /></dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36698.html">What is Georgia State’s Federal ID Code for financial aid/FAFSA application?</a> -->
+<dt class="even">What is Georgia State’s Federal ID Code for financial aid/FAFSA application? 
+
+</dt>
+<dd class="even">Georgia State’s Federal ID Code is 001574.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36699.html">What housing is available for Georgia State students? What is the housing application process? Is a housing deposit required?</a> -->
+<dt class="odd">What housing is available for Georgia State students? What is the housing application process? Is a housing deposit required?
+
+</dt>
+<dd class="odd">Georgia State offers three types of <a  target="_self" href="http://www.gsu.edu/admissions/28460.html">on-campus housing</a>. with a deposit of $525 for accepted students. Students may only apply and deposit for housing after acceptance, and will be placed first-come, first-serve.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36700.html">How do accepted students notify Georgia State of their intent to enroll? Is there a tuition deposit?</a> -->
+<dt class="even">How do accepted students notify Georgia State of their intent to enroll? Is there a tuition deposit?
+
+</dt>
+<dd class="even">Students will be sent an <em>Intent to Enroll </em>form upon their acceptance to Georgia State. It is the student’s responsibility to fill out the required information and submit it to the Admissions Office. Currently, there is no required tuition deposit at Georgia State University. </dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36702.html">What are Georgia State’s dining facilities? Is there a meal plan?</a> -->
+<dt class="odd">What are Georgia State's dining facilities? Is there a meal plan?
+
+</dt>
+<dd class="odd">Georgia State offers several <a  target="_self" href="http://www.gsu.edu/auxiliary/pantherdining.html">PantherDining</a> options, including Chick-fil-a, Starbucks, Einstein Bagels, Burger King and Garden Pasta Creations, among others. Georgia State offers an all-you-can-eat, buffet style meal plan for any student.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36703.html">Where can students find information about transportation and parking?</a> -->
+<dt class="even">Where can students find information about transportation and parking?
+
+</dt>
+<dd class="even">Students can access information on transportation and parking by visiting <a  target="_self" href="http://www.gsu.edu/auxiliary/parking.html">Auxiliary Services</a>.</dd>
+
+
+<!-- <a href="http://www.gsu.edu/admissions/36704.html">Who needs to take the placement tests at Georgia State? How do new students sign up for placement tests?</a> -->
+<dt class="odd">Who needs to take the placement tests at Georgia State? How do new students sign up for placement tests?
+
+</dt>
+<dd class="odd">Accepted Georgia State students can click <a  target="_self" href="http://www.gsu.edu/success/testing.html">here</a> to see if they will need to take the math, chemistry, and/or foreign language placement tests and how to register. Testing requirements vary by major, and students will want to try and complete placement tests before orientation and registration. </dd>
+
+
+</dl>
+<!-- END CONTENT MODULES - FAQ LIST --></div>
+
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,24 @@
+  div.row {
+  clear: both;
+  padding-top: 10px;
+  width:700px;
+  }
+
+div.row span.label {
+  float: left;
+  width: 150px;
+  text-align: left;
+  }
+
+div.row span.formw {
+  float: right;
+  width: 500px;
+  text-align: left;
+  padding-left:50px;
+  } 
+span.extrarow{
+	display:inline;
+}
+.viewappbox{
+  	width:220px;
+  }
